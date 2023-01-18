@@ -22,6 +22,11 @@ int c3 = 313;
 //int max3 = Max(a3, b3, c3);
 //int max = Max(max1, max2, max3);
 
+// Было int max = Max(max1, max2, max3), 
+// мы вместо max1 вставили Max(a1, b1, c1);
+// мы вместо max2 вставили Max(a2, b2, c2);
+// мы вместо max3 вставили Max(a3, b3, c3);
+
 int max = Max(
     Max(a1, b1, c1), 
     Max(a2, b2, c2), 
