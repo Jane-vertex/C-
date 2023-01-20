@@ -10,5 +10,5 @@
 Console.WriteLine("Введите число");
 string number = Console.ReadLine();
 int a = Convert.ToInt32(number);
-int b = (a%100)/10;
-Console.Write(b);
+int b = (a % 100) / 10;
+Console.Write("Вторая цифра введенного трехзначного числа: " + b);
