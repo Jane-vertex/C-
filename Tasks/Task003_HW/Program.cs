@@ -17,5 +17,6 @@ if (num % 2 == 0)
 
 else
 {
-    Console.Write ("Число " + num + " является не четным");
+    //Console.Write ("Число " + num + " является не четным");
+    Console.Write ($"Число {num} является не четным");
 }

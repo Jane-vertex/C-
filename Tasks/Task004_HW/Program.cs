@@ -8,8 +8,27 @@
 
 
 
+/* Console.WriteLine("Введите число:");
+int num = Convert.ToInt32(Console.ReadLine());
+int i = 1;
 
-Console.WriteLine("Введите число:");
+Console.WriteLine("Чётные числа от 1 до " + num);
+while (i <= num)
+{
+    if (i % 2 == 0)
+    {
+        Console.Write(i + ", ");
+    }
+    else
+    {
+        Console.WriteLine("Нет чётных чисел!");
+    }
+    i++;
+
+}
+ */
+
+ Console.WriteLine("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
 int i = 1;
 bool not = true;
@@ -29,4 +48,3 @@ if (not)
 {
     Console.WriteLine("Нет чётных чисел!");
 }
-

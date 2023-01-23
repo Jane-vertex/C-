@@ -19,14 +19,14 @@ int max = a;
 if (a > b) 
 {
     max = a;
-    Console.Write( "max = ");
+    Console.Write($"max = " );
     Console.WriteLine(max);
 }
 else
 {
     max = b; 
-    Console.Write( "max = ");
-    Console.WriteLine(max);
+    Console.Write($"max = {max}");
+    
 }
 
 
