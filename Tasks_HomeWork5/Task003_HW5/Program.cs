@@ -3,6 +3,7 @@
 [3 7 22 2 78] -> 76 */
 
 
+
 double GetRandomNumber(double minimum, double maximum)
 { 
     Random random = new Random();
