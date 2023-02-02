@@ -4,7 +4,7 @@
 1, -7, 567, 89, 223-> 3 */
 
 
-Console.Write("Введите через пробел любую последовательность чисел: ");
+Console.Write("Введите через пробел любую последовательность чисел и нажмите ENTER: ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
  
